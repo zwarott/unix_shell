@@ -129,3 +129,18 @@ This command is self explanatory, you can trigger the native text-to-voice funct
 ```
 say "sometext"
 ```
+
+
+## Network quality testing tool
+MacOS networkQuality is a command used to test your network quality on Mac. For more information type:
+```
+man networkQuality
+```
+Get network quality summary (uplink capacity, downlink capacity, responsiveness, idle latency)
+```
+networkQuality
+```
+Get verbose quality summary (in more detail)
+```
+networkQuality -v
+```
